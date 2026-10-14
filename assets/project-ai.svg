@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="pAiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b0764" />
+    </linearGradient>
+    <filter id="pAiGlow">
+      <feGaussianBlur stdDeviation="6" result="b" />
+      <feComposite in="SourceGraphic" in2="b" operator="over" />
+    </filter>
+  </defs>
+  <rect width="600" height="360" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="2" />
+  <!-- Neural Net Layers -->
+  <g stroke="#a855f7" stroke-width="1.5" opacity="0.6">
+    <line x1="180" y1="120" x2="300" y2="100" />
+    <line x1="180" y1="120" x2="300" y2="180" />
+    <line x1="180" y1="180" x2="300" y2="100" />
+    <line x1="180" y1="180" x2="300" y2="180" />
+    <line x1="180" y1="180" x2="300" y2="260" />
+    <line x1="180" y1="240" x2="300" y2="180" />
+    <line x1="180" y1="240" x2="300" y2="260" />
+
+    <line x1="300" y1="100" x2="420" y2="140" />
+    <line x1="300" y1="180" x2="420" y2="140" />
+    <line x1="300" y1="180" x2="420" y2="220" />
+    <line x1="300" y1="260" x2="420" y2="220" />
+  </g>
+  <!-- Input Nodes -->
+  <circle cx="180" cy="120" r="10" fill="#3b0764" stroke="#a855f7" stroke-width="2" />
+  <circle cx="180" cy="180" r="10" fill="#3b0764" stroke="#a855f7" stroke-width="2" />
+  <circle cx="180" cy="240" r="10" fill="#3b0764" stroke="#a855f7" stroke-width="2" />
+  <!-- Hidden Nodes -->
+  <circle cx="300" cy="100" r="12" fill="#00f0ff" filter="url(#pAiGlow)" />
+  <circle cx="300" cy="180" r="14" fill="#a855f7" filter="url(#pAiGlow)" />
+  <circle cx="300" cy="260" r="12" fill="#ec4899" filter="url(#pAiGlow)" />
+  <!-- Output Nodes -->
+  <circle cx="420" cy="140" r="10" fill="#090d16" stroke="#00f0ff" stroke-width="2" />
+  <circle cx="420" cy="220" r="10" fill="#090d16" stroke="#00f0ff" stroke-width="2" />
+  <!-- Text Overlay -->
+  <text x="300" y="300" text-anchor="middle" font-family="'Orbitron', sans-serif" font-size="14" font-weight="700" fill="#c084fc" letter-spacing="2">ARTIFICIAL INTELLIGENCE</text>
+  <text x="300" y="325" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8">Upcoming Project Slot #2</text>
+</svg>

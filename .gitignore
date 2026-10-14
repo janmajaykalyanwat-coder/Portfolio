@@ -1,0 +1,10 @@
+# OS & Logs
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files & screenshots
+hero-screenshot.png
+screenshot.png
+preview.png

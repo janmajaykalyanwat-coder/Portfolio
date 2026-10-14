@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="certBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <filter id="certGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="550" rx="16" fill="url(#certBg)" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Outer Cyber Border -->
+  <rect x="25" y="25" width="750" height="500" rx="12" fill="none" stroke="url(#cyberBorder)" stroke-width="2" opacity="0.8" />
+  <rect x="35" y="35" width="730" height="480" rx="8" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="8 6" />
+
+  <!-- Corner Silicon Tech Marks -->
+  <g fill="#00f0ff">
+    <rect x="20" y="20" width="20" height="4" />
+    <rect x="20" y="20" width="4" height="20" />
+    <rect x="760" y="20" width="20" height="4" />
+    <rect x="776" y="20" width="4" height="20" />
+    <rect x="20" y="526" width="20" height="4" />
+    <rect x="20" y="510" width="4" height="20" />
+    <rect x="760" y="526" width="20" height="4" />
+    <rect x="776" y="510" width="4" height="20" />
+  </g>
+
+  <!-- Google 4-Color Ambient Dot Cluster -->
+  <g transform="translate(400, 100)">
+    <circle cx="-30" cy="0" r="12" fill="#4285F4" filter="url(#certGlow)" />
+    <circle cx="-10" cy="0" r="12" fill="#EA4335" filter="url(#certGlow)" />
+    <circle cx="10" cy="0" r="12" fill="#FBBC05" filter="url(#certGlow)" />
+    <circle cx="30" cy="0" r="12" fill="#34A853" filter="url(#certGlow)" />
+  </g>
+
+  <!-- Certificate Headings -->
+  <text x="400" y="160" text-anchor="middle" font-family="'Orbitron', 'Space Grotesk', sans-serif" font-size="20" font-weight="700" fill="#38bdf8" letter-spacing="4">WORKSHOP PARTICIPATION</text>
+  <text x="400" y="195" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="400" fill="#94a3b8" letter-spacing="2">THIS IS TO ACKNOWLEDGE PARTICIPATION IN</text>
+
+  <!-- Workshop Title -->
+  <text x="400" y="250" text-anchor="middle" font-family="'Orbitron', 'Space Grotesk', sans-serif" font-size="30" font-weight="800" fill="#ffffff" letter-spacing="1">GOOGLE AI WORKSHOP</text>
+
+  <!-- Description / Recipient -->
+  <text x="400" y="295" text-anchor="middle" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#cbd5e1">Awarded to</text>
+  <text x="400" y="335" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#00f0ff" letter-spacing="1">JANMAJAY KALYANWAT</text>
+  
+  <text x="400" y="375" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="400" fill="#94a3b8">For exploring foundational Artificial Intelligence, Machine Learning &amp; Applied Innovation</text>
+
+  <!-- Bottom Badges / Verification Note -->
+  <g transform="translate(400, 445)">
+    <rect x="-160" y="-18" width="320" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="0" y="5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#38bdf8" letter-spacing="1">EDITABLE CERTIFICATE PLACEHOLDER</text>
+  </g>
+
+  <!-- Seal / Hologram Emblem -->
+  <g transform="translate(680, 440)">
+    <circle cx="0" cy="0" r="32" fill="#0b1120" stroke="url(#goldGradient)" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="24" fill="none" stroke="url(#goldGradient)" stroke-width="1" stroke-dasharray="4 3" />
+    <text x="0" y="4" text-anchor="middle" font-family="'Orbitron', sans-serif" font-size="9" font-weight="700" fill="#fbbf24">VERIFIED</text>
+  </g>
+</svg>

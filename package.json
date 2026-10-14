@@ -1,0 +1,25 @@
+{
+  "name": "janmajay-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Janmajay Kalyanwat - Electronics & Communication Engineering and Semiconductor Technology at JECRC University",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html",
+    "dev": "npx serve .",
+    "serve": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "portfolio",
+    "semiconductor",
+    "ece",
+    "engineering",
+    "jecrc-university",
+    "artificial-intelligence"
+  ],
+  "author": "Janmajay Kalyanwat",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
